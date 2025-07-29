@@ -1,0 +1,11 @@
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.Rhistory$
+^\.RData$
+^\.DS_Store$
+^\.httr-oauth$
+^\.quarto$
+^.*\.html$
+^README\.Rmd$
+^tests/testthat/testdata$

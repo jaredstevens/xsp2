@@ -1,0 +1,11 @@
+test_that("chiSqPeriodogram returns expected output for 10-day sine wave", {
+  t <- seq(0, 2 * pi * 10, length.out = 14400)
+  activity <- sin(t)
+  oscillation.df <- data.frame(dateTime = 1:length(activity), value = activity)
+  result <- chiSqPeriodogram(oscillation.df)
+  expect_true(is.data.frame(result))
+  expect_named(result, c("testPeriod", "Qp.act", "Qp.sig"))
+  expect_gt(nrow(result), 0)
+  expect_true(all(result$Qp.act >= 0))
+  expect_true(any(abs(result$testPeriod - 24) < 0.1))
+})
