@@ -8,6 +8,7 @@
 [![R-CMD-check](https://github.com/jaredstevens/xsp2/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jaredstevens/xsp2/actions/workflows/R-CMD-check.yaml)
 [![Codecov test coverage](https://codecov.io/gh/jaredstevens/xsp2/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jaredstevens/xsp2)
 [![Lifecycle: Stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![DOI](https://zenodo.org/badge/1028425222.svg)](https://doi.org/10.5281/zenodo.16575808)
 
 <!-- badges: end -->
 
