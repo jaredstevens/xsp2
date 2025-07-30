@@ -4,6 +4,7 @@ title: "xsp2: Chi-Square Periodogram"
 version: "0.1.0"
 doi: "10.5281/zenodo.16575809"
 date-released: 2025-07-29
+publisher: "Zenodo"
 authors:
   - family-names: "Stevens"
     given-names: "Jared P."
